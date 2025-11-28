@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 app.secret_key = 'your-secret-key-here'
 DATA_FILE = 'suggestions.json'
-ADMIN_CREDENTIALS = {'hoseogo': '12345'}
+ADMIN_CREDENTIALS = {'hoseogo': '1234'}
 
 CATEGORY_CONFIG = {
     'facility': {'icon': '🏢', 'color': 'bg-blue-100 text-blue-800', 'name': '시설 개선'},
